@@ -1,0 +1,14 @@
+package br.com.alura;
+
+public class testaCurso {
+	
+	public static void main(String[] args) {
+		
+		Cursos dev = new Cursos();
+		
+		dev.Curso("Aprendendo Listas no Java", "Pedro Trebilcock");
+		
+		System.out.println(dev.toString());
+	}
+
+}

@@ -1,0 +1,37 @@
+package br.com.alura;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class TestaCurso2 {
+	
+	public static void main(String[] args) {
+		
+		Cursos dev = new Cursos("Aprendendo Listas no Java", "Pedro Trebilcock");	
+		
+		List<Aula> aula = dev.getAulas();
+		
+		dev.adiciona(new Aula ("Mais práticas com relacionamento", 25));
+		dev.adiciona(new Aula ("Relacionamento com Coleções", 24));
+		dev.adiciona(new Aula ("Aprendendo Listas no Java", 22));
+		
+		
+		
+		System.out.println(aula);
+		
+		List<Aula> listaImutavel = dev.getAulas();
+		
+		List<Aula> aulas = new ArrayList<>(listaImutavel);
+		
+		Collections.sort(aulas);
+		
+		System.out.println(aulas);
+		
+		System.out.println(dev);
+		
+		
+		
+	}
+
+}
