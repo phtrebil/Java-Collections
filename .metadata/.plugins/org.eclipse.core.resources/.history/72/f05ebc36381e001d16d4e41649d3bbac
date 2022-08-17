@@ -1,0 +1,21 @@
+package br.com.alura;
+
+import java.util.ArrayList;
+import java.util.Comparator;
+
+public class TestaMatriculaEAlunos {
+
+	public static void main(String[] args) {
+		
+		Aula a1 = new  Aula("Revistando as ArraysLists", 21);
+		Aula a2 = new  Aula("Listas de objetos", 20);
+		Aula a3 = new  Aula("Relacionamento de Listas e Objetos", 15);
+			
+		
+		Aluno b1 = new Aluno("Marcos Varela", 25423);
+		Aluno b2 = new Aluno("Vinícus Marmela", 75412);
+		Aluno b3 = new Aluno("Vânia Pirelli", 852147);
+
+	}
+
+}
