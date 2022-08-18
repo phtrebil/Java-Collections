@@ -59,16 +59,5 @@ public class Cursos {
 		return this.alunos.contains(aluno);		
 	}
 	
-	@Override
-	public boolean equals(Object obj) {
-	    Aluno outroAluno = (Aluno) obj;
-	    return this.nome.equals(outroAluno.getNome());
-	}
-	
-	@Override
-	public int hashCode(){
-	    return this.nome.hashCode();
-	}
-	
     
 }

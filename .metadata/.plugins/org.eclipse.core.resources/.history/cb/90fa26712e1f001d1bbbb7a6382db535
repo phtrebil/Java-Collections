@@ -62,13 +62,10 @@ public class Cursos {
 	@Override
 	public boolean equals(Object obj) {
 	    Aluno outroAluno = (Aluno) obj;
-	    return this.nome.equals(outroAluno.getNome());
+	    return this.nome.equals(outroAluno.nome);
 	}
 	
-	@Override
-	public int hashCode(){
-	    return this.nome.hashCode();
-	}
+	
 	
     
 }
