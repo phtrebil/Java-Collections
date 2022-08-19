@@ -1,0 +1,21 @@
+package br.com.alura;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class exercicio {
+	
+	public static void main(String[] args) {
+		Map<Integer, String> pessoas = new HashMap<>();
+		
+		pessoas.put(18, "Maria Clara");
+		pessoas.put(21, "Julia Abilel");
+		pessoas.put(10, "Penny Lane");
+		pessoas.put(11, "Lane Lane");
+		
+		pessoas.keySet().forEach(idade -> {pessoas.get(idade);});
+		
+		
+	}
+
+}
